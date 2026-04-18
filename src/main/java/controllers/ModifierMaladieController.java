@@ -56,7 +56,7 @@ public class ModifierMaladieController {
 
     @FXML
     void initialize() {
-        Image img = new Image("/img/amine.jpg");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         sympError.setVisible(false);
         descError.setVisible(false);

@@ -65,7 +65,7 @@ public class AjouterAnalyseController implements Initializable {
     ResultSet rs = null;
 
     public void initialize(URL location, ResourceBundle resources) {
-        Image img = new Image("/img/1.png");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         TypeAnalys.setItems(FXCollections.observableArrayList("Urinaire", "Sanguin", "Urinaire", "Fécal(e)", "Liquide céphalorachidien (LCR)", "Salivaire"));
     }

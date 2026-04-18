@@ -74,7 +74,7 @@ public class ModifierOrdController {
 
     @FXML
     void initialize() {
-        Image img = new Image ("/img/amine.jpg");
+        Image img = new Image ("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         codeError.setVisible(false);
         descError.setVisible(false);

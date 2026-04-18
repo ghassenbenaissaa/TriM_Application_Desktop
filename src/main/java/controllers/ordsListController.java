@@ -39,7 +39,7 @@ public class ordsListController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         ordonnanceService = new OrdonnanceService();
-        Image img = new Image("/img/amine.jpg");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         int medecinId = 1;
         try {

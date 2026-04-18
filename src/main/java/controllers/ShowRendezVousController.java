@@ -56,7 +56,7 @@ public class ShowRendezVousController {
     private ObservableList<Rendez_Vous> rendez_vous;
 
     public void initialize() {
-        Image img = new Image ("/img/wided.png");
+        Image img = new Image ("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         Image img2 = new Image("/img/down.png");
         tri.setImage(img2);

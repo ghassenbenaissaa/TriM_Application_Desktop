@@ -120,7 +120,7 @@ public class ModifierMedecinController implements Initializable {
     private MedecinService medecinService = new MedecinService();
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        Image img = new Image("/img/amine.jpg");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
     }
 

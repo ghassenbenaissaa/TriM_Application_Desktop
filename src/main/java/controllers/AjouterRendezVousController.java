@@ -58,7 +58,7 @@ public class AjouterRendezVousController {
     private ChoiceBox<String> motifAjout;
     private MedecinService medecinService = new MedecinService();
     public void initialize() {
-        Image img = new Image ("/img/wided.png");
+        Image img = new Image ("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         // Initialiser les valeurs du ChoiceBox
         motifAjout.getItems().addAll("Consultation", "Visite", "Controle"); // Ajoutez autant de valeurs que nécessaire

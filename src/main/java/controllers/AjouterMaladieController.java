@@ -58,7 +58,7 @@ public class AjouterMaladieController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
-            Image img = new Image("/img/amine.jpg");
+            Image img = new Image("/img/avatar.png");
             circle.setFill(new ImagePattern(img));
             nomError.setVisible(false);
             sympError.setVisible(false);

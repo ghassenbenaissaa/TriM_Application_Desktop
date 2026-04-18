@@ -55,7 +55,7 @@ public class MedecinProfileController {
 
     public void initialize() {
         ordonnanceService = new OrdonnanceService();
-        Image img = new Image("/img/amine.jpg");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
 
         try {

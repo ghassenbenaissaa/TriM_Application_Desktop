@@ -61,7 +61,7 @@ public class EditRendezVousController {
     RendezVousService rendezVousService =  new RendezVousService();
     private MedecinService medecinService = new MedecinService();
     public void initialize() {
-        Image img = new Image("/img/wided.png");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
 
         List<LocalDate> datesDejaChoisies = rendezVousService.getDatesDejaChoisies();

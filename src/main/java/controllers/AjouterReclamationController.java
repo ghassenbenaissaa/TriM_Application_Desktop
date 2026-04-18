@@ -48,7 +48,7 @@ public class AjouterReclamationController {
     ReclamationService reclamation = new ReclamationService();
     java.sql.Date sqlDate = new java.sql.Date(new Date().getTime());
     public void initialize() {
-        Image img = new Image ("/img/wided.png");
+        Image img = new Image ("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
 
     }

@@ -56,7 +56,7 @@ public class MaladiesController implements Initializable {
         tri.setImage(img2);
 
         MaladieService maladieService = new MaladieService();
-        Image img = new Image("/img/amine.jpg");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
 
         try {

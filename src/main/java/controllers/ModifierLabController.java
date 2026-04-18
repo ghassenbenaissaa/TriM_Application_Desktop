@@ -98,7 +98,7 @@ public class ModifierLabController implements Initializable {
 
     public void initialize(URL location, ResourceBundle resources) {
         try {
-            Image img = new Image("/img/1.png");
+            Image img = new Image("/img/avatar.png");
             circle.setFill(new ImagePattern(img));
 
             webView = new javafx.scene.web.WebView();

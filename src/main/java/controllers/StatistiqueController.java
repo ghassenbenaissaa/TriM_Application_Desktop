@@ -44,7 +44,7 @@ public class StatistiqueController {
 
     public void initialize() throws SQLException {
         int id_patient=1;
-        Image img = new Image ("/img/wided.png");
+        Image img = new Image ("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         ObservableList<PieChart.Data> pieChartData = FXCollections.observableArrayList();
         int consultationCount = countRendezVousByMotif("Consultation");

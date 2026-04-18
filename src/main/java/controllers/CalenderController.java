@@ -43,7 +43,7 @@ public class CalenderController {
     @FXML
     private DatePicker dateAjout;
     public void initialize() {
-        Image img = new Image ("/img/wided.png");
+        Image img = new Image ("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         createCalendarFromDatabase(1);
     }

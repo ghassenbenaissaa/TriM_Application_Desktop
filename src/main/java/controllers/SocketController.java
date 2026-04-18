@@ -47,7 +47,7 @@ public class SocketController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        Image img = new Image("/img/amine.jpg");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         try {
             server = new Server(new ServerSocket(1234));

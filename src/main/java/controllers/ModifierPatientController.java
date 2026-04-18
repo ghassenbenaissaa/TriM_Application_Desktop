@@ -63,7 +63,7 @@ public class ModifierPatientController {
 
 
     public void initialize() {
-        Image img = new Image("/img/wided.png");
+        Image img = new Image("/img/avatar.png");
         circle.setFill(new ImagePattern(img));
         PatientService patientService = new PatientService();
         int idPatient = 1;
